@@ -9,10 +9,10 @@ attr_accessor :cat
   end
 
 it "cant change its name" do
-expect { cat.name = "mr. whiskers" }.to raise_error NoMethodError  
+expect { cat.name = "mr. whiskers" }.to raise_error NoMethodError
 end
 
-it "initializes with nervous mood" do 
+it "initializes with nervous mood" do
   expect(cat.mood).to eq("nervous")
 end
 
