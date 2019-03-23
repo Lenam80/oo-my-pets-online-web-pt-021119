@@ -1,3 +1,7 @@
 class Dog
-  # code goes here
+attr_accessor :dog
+
+describe dog do
+  
+end
 end
