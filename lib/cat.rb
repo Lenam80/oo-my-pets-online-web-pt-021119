@@ -16,7 +16,9 @@ it "initializes with nervous mood" do
   expect(cat.mood).to eq("nervous")
 end
 
-
+it "can change its mood" do
+expect(cat.mood).to eq("playful")  
+end
 
 
 end
